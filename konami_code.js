@@ -8,7 +8,7 @@ function init() {
   // Keep track of index outside of the event handler.
   let index = 0;
 
-  alphabet.addEventListener('keydown', function(e){
+  document.body.addEventListener('keydown', function(e){
     function onKeyDownHandler(e) {
    const key = parseInt(e.detail || e.which);
 
