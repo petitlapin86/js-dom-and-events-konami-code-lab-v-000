@@ -7,7 +7,7 @@ function init() {
   // Write your JavaScript code inside the init() function
   // Keep track of index outside of the event handler.
   let index = 0;
-  
+
   alphabet.addEventListener('keydown', function(e){
     function onKeyDownHandler(e) {
    const key = parseInt(e.detail || e.which);
