@@ -1,5 +1,9 @@
 const alphabet = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
 
+// Keep track of index outside of the event handler.
+let index = 0;
+
+
 function init() {
   // Write your JavaScript code inside the init() function
   alphabet.addEventListener('keydown', () =>{
